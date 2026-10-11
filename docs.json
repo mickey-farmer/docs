@@ -1,0 +1,49 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Calla Studio help",
+  "colors": {
+    "primary": "#3f7a63",
+    "light": "#7fc0a3",
+    "dark": "#3f7a63"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "pages": [
+      {
+        "group": "Help",
+        "pages": [
+          "index",
+          "help/getting-started",
+          "help/track-auditions",
+          "help/share-your-resume",
+          "help/forward-casting-emails"
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [],
+    "primary": {
+      "type": "button",
+      "label": "Open Calla Studio",
+      "href": "https://callastudio.app"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  },
+  "description": "How to track auditions, share your resume, and forward casting emails in Calla Studio.",
+  "fonts": {
+    "family": "Figtree"
+  }
+}
